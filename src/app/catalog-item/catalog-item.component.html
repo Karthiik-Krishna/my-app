@@ -1,0 +1,9 @@
+<div class="thumb-outer" *ngIf="((catalog && catalog.thumb) || slideChecked) && check==0 ">
+    <div class="thumb" [ngStyle]="{'background-image': 'url('+catalog.thumb+')'}">
+    </div>
+</div>
+
+<div class="thumb-outer1" *ngIf="((catalog && catalog.thumb) || slideChecked) && check==1">
+    <div class="thumb1" [ngStyle]="{'background-image': 'url('+catalog.thumb+')'}">
+    </div>
+</div>

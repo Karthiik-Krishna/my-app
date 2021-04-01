@@ -1,0 +1,61 @@
+.thumb-outer {
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    position: relative;
+    display: inline-block;
+    border-bottom: none;
+    width: 100px;
+    text-align: center;
+}
+
+.thumb {
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    border-color: rgb(105, 105, 110);
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.thumb-outer:hover {
+    border: 2px solid #707377;
+}
+
+.thumb-outer1 {
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    position: relative;
+    display: inline-block;
+    border-bottom: none;
+    width: 100px;
+    text-align: center;
+}
+
+.thumb1 {
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    border-color: blue;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.thumb-outer1 {
+    border: 2px solid #2874f0;
+}
+
+.active {
+    border: 2px solid #2874f0;
+}

@@ -1,0 +1,10 @@
+<ng-container *ngFor="let catalog of items; let i = index">
+    <div *ngIf="i==currentIndex">
+        <app-catalog-item [check]="1" (mouseover)="onImageSelect(i)" [catalog]="catalog" class="catalog-item"></app-catalog-item>
+    </div>
+
+    <div *ngIf="i!=currentIndex" class="catalog item">
+        <app-catalog-item [check]="0" (mouseover)="onImageSelect(i)" [catalog]="catalog" class="catalog-item"></app-catalog-item>
+    </div>
+
+</ng-container>
